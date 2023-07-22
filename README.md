@@ -26,11 +26,14 @@ Não se esqueça de incluir os #includes necessários nos ficheiros .h.
  
 Para compilar colocamos na pasta principal o ficheiro CMakeLists e no terminal escrevemos:<br>
 <br>
-<strong>g++ *.cpp -o wine</strong><br>
+<strong>g++ *.cpp -o wine -std=c++17</strong><br>
 <strong>./wine</strong><br>
 <br>
 <br>
-Para executar segue o print: 
+Para executar:<br>
+<strong>./wine</strong>
+<br>
+segue o print: 
 
 <img width="400" src="tela.jpg" >
 
